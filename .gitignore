@@ -1,0 +1,6 @@
+data/enemy_pool.pkl
+checkpoints/
+runs/
+__pycache__/
+*.pyc
+.env
