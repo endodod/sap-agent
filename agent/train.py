@@ -14,7 +14,7 @@ TOTAL_STEPS  = 3_000_000
 N_TRAIN_ENVS = 8
 N_EVAL_ENVS  = 4
 EVAL_FREQ    = 100_000
-CKPT_FREQ    = 100_000
+CKPT_FREQ    = 100_000 // N_TRAIN_ENVS  # CheckpointCallback counts env steps, not timesteps
 REGEN_FREQ   = 500_000
 REGEN_GAMES  = 500
 
